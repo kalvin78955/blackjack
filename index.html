@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BlackJack</title>
+  </head>
+  <body>
+      <h1>BlackJack</h1>
+
+      <p class="stat-tracker">G: 0 | E: 0 | P: 0</p>
+
+      <div class="player-bank">
+        <p>Banque du joueur: 100</p>
+      </div>
+
+      <div class="game-status">
+          Appuyez sur le bouton ci-dessous pour commencer à jouer.
+      </div>
+
+      <div class="hidden player-bet">
+        <label for="player-bet">Montant du pari (2-100): </label><input type="number" name="player-bet" id="player-bet" min="2" max="100">
+        <button class="confirm-bet-button">Confirmer le pari</button>
+      </div>
+      
+      <button alt="new-game" class="new-game-button">Nouvelle partie</button>
+      <div class="hidden game-button">
+        <button alt="carte" class="carte-button">Carte</button>
+        <button alt="double" class="double-button">Double</button>
+        <button alt="servi" class="servi-button">Servi</button>
+        <button alt="assurance" class="hidden assurance-button">Assurance</button>
+        <button alt="split" class="hidden split-button">Split</button>
+      </div>
+
+
+      <div class="blackjack-table">
+          <div class="player">
+              <h3>Main du joueur</h3>
+              <p class= "player-hand"> Aucune carte!</p>
+          </div>
+          <div class="dealer">
+            <h3>Main du dealer</h3>
+            <p class ="dealer-hand">Aucune carte!</p>
+        </div>
+      </div>
+      
+    <script src="main.js"></script>
+  
+  </body>
+</html>

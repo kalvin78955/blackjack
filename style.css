@@ -1,0 +1,84 @@
+body {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+
+button {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    padding: 0.8rem;
+    background-color: rgb(202, 200, 198);
+    border:2px solid rgb(83,83,83);
+    border-radius: 10px;
+}
+
+
+.stat-tracker { font-size: 1.5rem; }
+.carte-button { background-color: rgb(73, 223, 105); }
+.double-button { background-color: rgb(255, 0, 212); }
+.servi-button { background-color: rgb(124, 124, 240); }
+.hidden {display: none; } 
+
+.confirm-bet-button {
+    padding: 0.3rem;
+    font-size: 1rem;
+    margin-left: 4px;
+    background-color: rgb(86, 255, 100);
+    border: 1px solid black;
+}
+
+.game-status{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: rgb(204, 204, 204);
+    border:2px solid rgb(190, 189, 189);
+    border-radius: 5px;
+}
+
+.blackjack-table {
+    display: flex;
+}
+
+.game-status, .blackjack-table{
+    justify-content: center;
+    align-items: center;
+}
+.button, .game-status {
+    background-color: rgb(204, 204, 204);
+    border:2px solid rgb(190, 189, 189);
+    border-radius: 5px;
+}
+
+
+.blackjack-table .player { margin-right: 70px; }
+.bold { font-weight: bold; }
+.red-card { color:rgb(124, 124, 240); }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 40px;
+    height: 70px;
+    margin-right: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.card-value, .card-suit {
+    width: 100%;
+    display: block;
+    padding-top: 8px;
+}
